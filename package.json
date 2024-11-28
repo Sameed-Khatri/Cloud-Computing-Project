@@ -1,15 +1,20 @@
 {
   "name": "cloud-project",
   "version": "1.0.0",
-  "main": "app.js",
+  "main": "lambda.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
-    "express": "^4.21.1"
+    "aws-serverless-express": "^3.4.0",
+    "express": "^4.21.1",
+    "supertest": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
